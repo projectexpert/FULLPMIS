@@ -17,7 +17,7 @@ update-alternatives --config editor
 Create Odoo user
 ----------------
 ```bash
-adduser --system --quiet --shell=/bin/bash --home=/opt/fullpmis --gecos 'fullpmis' --group fullpmis
+adduser --system --quiet --shell=/bin/bash --home=/opt/odoo --gecos 'odoo' --group odoo
 ```
 
 Install Postgresql set up the postgresql user
