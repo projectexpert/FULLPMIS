@@ -6,10 +6,6 @@
 	path = __oca__/project-service
 	url = https://github.com/OCA/project.git
 	branch = 8.0
-[submodule "__oca__/server-tools"]
-	path = __oca__/server-tools
-	url = https://github.com/OCA/server-tools.git
-	branch = 8.0
 [submodule "__base__/odoo"]
 	path = __base__/odoo
 	url = https://github.com/OCA/OCB.git
@@ -117,4 +113,8 @@
 [submodule "__other__/yelizariev-mail"]
 	path = __other__/yelizariev-mail
 	url = https://github.com/yelizariev/mail-addons.git
+	branch = 8.0
+[submodule "__oca__/server-tools"]
+	path = __oca__/server-tools
+	url = https://github.com/OCA/server-tools.git
 	branch = 8.0
