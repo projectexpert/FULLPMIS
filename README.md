@@ -24,7 +24,7 @@ Install Postgresql set up the postgresql user
 --------------------------------------------
 ```bash
 apt-get install postgresql
-su - postgres -c "createuser -s fullpmis" 2> /dev/null || true
+su - postgres -c "createuser -s odoo" 2> /dev/null || true
 ```
 
 Install Odoo dependencies
