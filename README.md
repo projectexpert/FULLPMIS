@@ -67,4 +67,30 @@ sudo cp /opt/odoo/FULLPMIS/odoo-conf/fullpmis-odoo-server /etc/init.d/fullpmis-o
 chmod +x /etc/init.d/fullpmis-odoo-server
 service fullpmis-odoo-server start
 update-rc.d fullpmis-odoo-server defaults
+```
 
+NGINX reverse proxy
+-------------------
+```bash
+apt-get install nginx
+mkdir /etc/nginx/odoossl
+cd /etc/nginx/odoossl
+```
+Generate certificate:
+```bash
+openssl genrsa -des3 -out odoo.pkey 1024
+openssl rsa -in odoo.pkey -out odoo.key
+openssl req -new -key odoo.key -out odoo.csr
+openssl x509 -req -days 365 -in odoo.csr -signkey odoo.key -out odoo.crt
+chown root:www-data odoo.crt odoo.key
+chmod 640 odoo.crt odoo.key
+mkdir /etc/ssl/odoossl
+chown www-data:root /etc/ssl/odoossl
+chmod 710 /etc/ssl/odoossl
+mv odoo.crt odoo.key /etc/ssl/odoossl/
+```
+
+Nginx config:
+```bash
+nano /etc/nginx/sites-available/odoo-net
+```
