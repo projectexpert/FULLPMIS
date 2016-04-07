@@ -11,11 +11,11 @@
 # Description:          Open ERP is a complete ERP and CRM software.
 ### END INIT INFO
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
-DAEMON=/opt/fullpmis/odoo/openerp-server
+DAEMON=/opt/odoo/fullpmis/odoo/openerp-server
 NAME=fullpmis-odoo-server
 DESC=fullpmis-odoo-server
-CONFIG=/opt/fullpmis/odoo-conf/odoo-server.conf
-LOGFILE=/opt/fullpmis/odoo-conf/odoo-server.log
+CONFIG=/opt/odoo/fullpmis/odoo-conf/odoo-server.conf
+LOGFILE=/opt/odoo/fullpmis/odoo-conf/odoo-server.log
 USER=odoo
 
 test -x ${DAEMON} || exit 0
