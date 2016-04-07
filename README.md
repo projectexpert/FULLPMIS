@@ -63,7 +63,7 @@ git clone --recursive https://github.com/projectexpert/FULLPMIS.git
 Prepare auto-start
 ------------------
 ```bash
-sudo cp /opt/odoo/fullpmis/odoo-conf/fullpmis-odoo-server /etc/init.d/fullpmis-odoo-server
+sudo cp /opt/odoo/FULLPMIS/odoo-conf/fullpmis-odoo-server /etc/init.d/fullpmis-odoo-server
 chmod +x /etc/init.d/fullpmis-odoo-server
 service fullpmis-odoo-server start
 update-rc.d fullpmis-odoo-server defaults
