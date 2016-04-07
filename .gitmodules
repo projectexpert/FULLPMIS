@@ -1,62 +1,62 @@
 [submodule "__other__/gantt_improvement"]
 	path = __other__/gantt_improvement
-	url = git@github.com:stephane-/gantt_improvement.git
+	url = https://github.com/stephane-/gantt_improvement.git
 	branch = 8.0
 [submodule "__oca__/project-service"]
 	path = __oca__/project-service
-	url = git@github.com:OCA/project.git
+	url = https://github.com/OCA/project.git
 	branch = 8.0
 [submodule "__oca__/server-tools"]
 	path = __oca__/server-tools
-	url = git@github.com:OCA/project.git
+	url = https://github.com/OCA/server-tools.git
 	branch = 8.0
 [submodule "__base__/odoo"]
 	path = __base__/odoo
-	url = git@github.com:OCA/OCB.git
+	url = https://github.com/OCA/OCB.git
 	branch = 8.0
 [submodule "__oca__/odoomrp-wip"]
 	path = __oca__/odoomrp-wip
-	url = git@github.com:odoomrp/odoomrp-wip.git
+	url = https://github.com/odoomrp/odoomrp-wip.git
 	branch = 8.0
 [submodule "__oca__/connector-telephony"]
 	path = __oca__/connector-telephony
-	url = git@github.com:OCA/connector-telephony.git
+	url = https://github.com/OCA/connector-telephony.git
         branch = 8.0
 [submodule "__oca__/account-invoicing"]
 	path = __oca__/account-invoicing
-	url = git@github.com:OCA/account-invoicing.git
+	url = https://github.com/OCA/account-invoicing.git
 	branch = 8.0
 [submodule "__oca__/partner-contact"]
 	path = __oca__/partner-contact
-	url = git@github.com:OCA/partner-contact.git
+	url = https://github.com/OCA/partner-contact.git
 	branch = 8.0
 [submodule "__oca__/knowledge"]
 	path = __oca__/knowledge
-	url = git@github.com:OCA/knowledge.git
+	url = https://github.com/OCA/knowledge.git
 	branch = 8.0
 [submodule "__oca__/web"]
 	path = __oca__/web
-	url = git@github.com:OCA/web.git
+	url = https://github.com/OCA/web.git
 	branch = 8.0
 [submodule "__oca__/website"]
 	path = __oca__/website
-	url = git@github.com:OCA/website.git
+	url = https://github.com/OCA/website.git
 	branch = 8.0
 [submodule "__oca__/management-system"]
 	path = __oca__/management-system
-	url = git@github.com:OCA/management-system.git
+	url = https://github.com/OCA/management-system.git
 	branch = 8.0
 [submodule "__oca__/hr-timesheet"]
 	path = __oca__/hr-timesheet
-	url = git@github.com:OCA/hr-timesheet.git
+	url = https://github.com/OCA/hr-timesheet.git
 	branch = 8.0
 [submodule "__other__/yelizariev-addons"]
 	path = __other__/yelizariev-addons
-	url = git@github.com:yelizariev/addons-yelizariev.git
+	url = https://github.com/yelizariev/addons-yelizariev.git
 	branch = 8.0
 [submodule "__oca__/sale-workflow"]
 	path = __oca__/sale-workflow
-	url = git@github.com:OCA/sale-workflow.git
+	url = https://github.com/OCA/sale-workflow.git
 	branch = 8.0
 [submodule "__other__/project-expert"]
 	path = __other__/project-expert
@@ -64,57 +64,57 @@
 	branch = 8.0
 [submodule "__other__/vauxoo"]
 	path = __other__/vauxoo
-	url = git@github.com:Vauxoo/addons-vauxoo.git
+	url = https://github.com/Vauxoo/addons-vauxoo.git
 	branch = 8.0
 [submodule "__other__/serpentcs"]
 	path = __other__/serpentcs
-	url = git@github.com:JayVora-SerpentCS/SerpentCS_Contributions-v8.git
+	url = https://github.com/JayVora-SerpentCS/SerpentCS_Contributions-v8.git
 	branch = 8.0
 [submodule "__oca__/product-attribute"]
 	path = __oca__/product-attribute
-	url = git@github.com:OCA/product-attribute.git
+	url = https://github.com/OCA/product-attribute.git
 	branch = 8.0
 [submodule "__other__/ingadhoc"]
 	path = __other__/ingadhoc
-	url = git@github.com:ingadhoc/odoo-addons.git
+	url = https://github.com/ingadhoc/odoo-addons.git
 	branch = 8.0
 [submodule "__oca__/event"]
 	path = __oca__/event
-	url = git@github.com:OCA/event.git
+	url = https://github.com/OCA/event.git
 	branch = 8.0
 [submodule "__oca__/social"]
 	path = __oca__/social
-	url = git@github.com:OCA/social.git
+	url = https://github.com/OCA/social.git
     branch = 8.0
 [submodule "__oca__/crm"]
 	path = __oca__/crm
-	url = git@github.com:OCA/crm.git
+	url = https://github.com/OCA/crm.git
     branch = 8.0
 [submodule "__other__/embed_html"]
 	path = __other__/embed_html
-	url = git@github.com:nedaszilinskas/Odoo-CMS-Embed-HTML-Building-Block.git
+	url = https://github.com/nedaszilinskas/Odoo-CMS-Embed-HTML-Building-Block.git
 	branch = 8.0
 [submodule "__oca__/purchase-workflow"]
 	path = __oca__/purchase-workflow
-	url = git@github.com:OCA/purchase-workflow.git
+	url = https://github.com/OCA/purchase-workflow.git
 	branch = 8.0
 [submodule "__oca__/account-financial-reporting"]
 	path = __oca__/account-financial-reporting
-	url = git@github.com:OCA/account-financial-reporting.git
+	url = https://github.com/OCA/account-financial-reporting.git
     branch = 8.0
 [submodule "__oca__/reporting-engine"]
 	path = __oca__/reporting-engine
-	url = git@github.com:OCA/reporting-engine.git
+	url = https://github.com/OCA/reporting-engine.git
     branch = 8.0
 [submodule "__oca__/account-financial-tools"]
 	path = __oca__/account-financial-tools
-	url = git@github.com:OCA/account-financial-tools.git
+	url = https://github.com/OCA/account-financial-tools.git
 	branch = 8.0
 [submodule "__oca__/manufacturing"]
 	path = __oca__/manufacturing
-	url = git@github.com:OCA/manufacture.git
+	url = https://github.com/OCA/manufacture.git
 	branch = 8.0
 [submodule "__other__/yelizariev-mail"]
 	path = __other__/yelizariev-mail
-	url = git@github.com:yelizariev/mail-addons.git
+	url = https://github.com/yelizariev/mail-addons.git
 	branch = 8.0
