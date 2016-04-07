@@ -1,7 +1,7 @@
 Unified Odoo Addons Repository
 ==============================
 
-You have to add your destination's ssh key to both, GitLab and Github accounts!
+You have to add your destination's ssh key to the Github account!
 
 ```bash
 git clone git@github.com:projectexpert/FULLPMIS.git
