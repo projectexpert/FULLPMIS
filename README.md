@@ -37,6 +37,8 @@ Install Odoo, project-expert and related repositories
 -----------------------------------------------------
 ```bash
 cd /opt
+mkdir odoo
+cd odoo
 git clone https://github.com/projectexpert/FULLPMIS.git
 cd FULLPMIS
 git submodule init
@@ -47,7 +49,7 @@ git submodule status
 Update Odoo, project-expert and related repositories
 ----------------------------------------------------
 ```bash
-cd /opt/FULLPMIS
+cd /opt/odoo&FULLPMIS
 git pull
 git submodule init
 git submodule update --recursive
