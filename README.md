@@ -4,7 +4,7 @@ Unified Odoo Addons Repository
 You have to add your destination's ssh key to the Github account!
 
 ```bash
-git clone git@github.com:projectexpert/FULLPMIS.git
+git clone https://github.com/projectexpert/FULLPMIS.git
 
 git submodule init
 
@@ -27,7 +27,7 @@ git submodule update --recursive
 With the newer git versions you can simply:
 
 ```bash
-git clone --recursive git@github.com:projectexpert/FULLPMIS.git
+git clone --recursive https://github.com/projectexpert/FULLPMIS.git
 ```
 
 Example addon path (if your odoo user's home, where you clone the repo is /opt/openerp):
