@@ -1,37 +1,96 @@
-Unified Odoo Addons Repository
-==============================
+Install Instructions on Debian 7
+================================
 
-You have to add your destination's ssh key to the Github account!
-
+Install system updates
+----------------------
 ```bash
-git clone https://github.com/projectexpert/FULLPMIS.git
-
-git submodule init
-
-git submodule update --recursive
-
-git submodule status
-
+apt-get update && apt-get upgrade
 ```
 
-Git update
-
+Basic setup
+-----------
 ```bash
-git pull
+apt-get install bash-completion nano mc zip unzip arj git mercurial bzr locate
+update-alternatives --config editor
+```
 
+Create Odoo user
+----------------
+```bash
+adduser --system --quiet --shell=/bin/bash --home=/opt/odoo --gecos 'odoo' --group odoo
+```
+
+Install Postgresql set up the postgresql user
+--------------------------------------------
+```bash
+apt-get install postgresql
+su - postgres -c "createuser -s odoo" 2> /dev/null || true
+```
+
+Install Odoo dependencies
+-------------------------
+```bash
+apt-get install python-imaging python-passlib python-dateutil python-feedparser python-gdata python-ldap python-libxslt1 python-lxml python-mako python-openid python-psycopg2 python-pybabel python-pychart python-pydot python-pyparsing python-reportlab python-simplejson python-tz python-vatnumber python-vobject python-webdav python-werkzeug python-xlwt python-yaml python-zsi python-docutils python-psutil wget python-unittest2 python-mock python-jinja2 python-dev libpq-dev poppler-utils python-pdftools antiword ca-certificates python-six binutils cpp cpp-4.7 gcc-4.7 libgmp10 libgomp1 libitm1 libmpc2 libmpfr4 libquadmath0 python-crypto python-egenix-mxtools python-httplib2 python-keyring python-launchpadlib python-lazr.restfulclient python-lazr.uri python-oauth python-wadllib python-xdg python-zope.interface python-beautifulsoup python-decorator python-requests python-pypdf python-bs4 python-unidecode
+```
+
+Install Odoo, project-expert and related repositories
+-----------------------------------------------------
+```bash
+cd /opt
+mkdir odoo
+cd odoo
+git clone https://github.com/projectexpert/FULLPMIS.git
+cd FULLPMIS
 git submodule init
+git submodule update --recursive
+git submodule status
+```
 
+Update Odoo, project-expert and related repositories
+----------------------------------------------------
+```bash
+cd /opt/odoo&FULLPMIS
+git pull
+git submodule init
 git submodule update --recursive
 ```
 
 With the newer git versions you can simply:
-
 ```bash
 git clone --recursive https://github.com/projectexpert/FULLPMIS.git
 ```
 
-Example addon path (if your odoo user's home, where you clone the repo is /opt/openerp):
-
+Prepare auto-start
+------------------
 ```bash
-addons_path = /opt/openerp/FULLPMIS/__base__/odoo/addons,/opt/openerp/fullodoo/__other__/project-expert,/opt/openerp/FULLPMIS,/opt/openerp/FULLPMIS/__oca__/account-financial-reporting,/opt/openerp/FULLPMIS/__oca__/account-financial-tools,/opt/openerp/FULLPMIS/__oca__/account-invoicing,/opt/openerp/FULLPMIS/__oca__/connector-telephony,/opt/openerp/FULLPMIS/__oca__/crm,/opt/openerp/FULLPMIS/__oca__/event,/opt/openerp/FULLPMIS/__oca__/hr-timesheet,/opt/openerp/FULLPMIS/__oca__/knowledge,/opt/openerp/FULLPMIS/__oca__/management-system,/opt/openerp/FULLPMIS/__oca__/manufacturing,/opt/openerp/FULLPMIS/__oca__/odoomrp-wip,/opt/openerp/FULLPMIS/__oca__/partner-contact,/opt/openerp/FULLPMIS/__oca__/product-attribute,/opt/openerp/FULLPMIS/__oca__/project-service,/opt/openerp/FULLPMIS/__oca__/purchase-workflow,/opt/openerp/FULLPMIS/__oca__/reporting-engine,/opt/openerp/FULLPMIS/__oca__/sale-workflow,/opt/openerp/FULLPMIS/__oca__/server-tools,/opt/openerp/FULLPMIS/__oca__/social,/opt/openerp/FULLPMIS/__oca__/web,/opt/openerp/FULLPMIS/__oca__/website
+sudo cp /opt/odoo/FULLPMIS/odoo-conf/fullpmis-odoo-server /etc/init.d/fullpmis-odoo-server
+chmod +x /etc/init.d/fullpmis-odoo-server
+service fullpmis-odoo-server start
+update-rc.d fullpmis-odoo-server defaults
+```
+
+NGINX reverse proxy
+-------------------
+```bash
+apt-get install nginx
+mkdir /etc/nginx/odoossl
+cd /etc/nginx/odoossl
+```
+Generate certificate:
+```bash
+openssl genrsa -des3 -out odoo.pkey 1024
+openssl rsa -in odoo.pkey -out odoo.key
+openssl req -new -key odoo.key -out odoo.csr
+openssl x509 -req -days 365 -in odoo.csr -signkey odoo.key -out odoo.crt
+chown root:www-data odoo.crt odoo.key
+chmod 640 odoo.crt odoo.key
+mkdir /etc/ssl/odoossl
+chown www-data:root /etc/ssl/odoossl
+chmod 710 /etc/ssl/odoossl
+mv odoo.crt odoo.key /etc/ssl/odoossl/
+```
+
+Nginx config:
+```bash
+nano /etc/nginx/sites-available/odoo-net
 ```
