@@ -118,3 +118,7 @@
 	path = __oca__/server-tools
 	url = https://github.com/OCA/server-tools.git
 	branch = 8.0
+[submodule "__oca__/account-analytic"]
+	path = __oca__/account-analytic
+	url = https://github.com/OCA/account-analytic.git
+	branch = 8.0
