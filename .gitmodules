@@ -8,7 +8,8 @@
 	branch = 8.0
 [submodule "__base__/odoo"]
 	path = __base__/odoo
-	url = https://github.com/OCA/OCB.git
+    url = https://github.com/sysadminmatmoz/OCB.git
+	# url = https://github.com/OCA/OCB.git
 	branch = 8.0
 [submodule "__oca__/odoomrp-wip"]
 	path = __oca__/odoomrp-wip
