@@ -123,3 +123,7 @@
 	path = __oca__/account-analytic
 	url = https://github.com/OCA/account-analytic.git
 	branch = 8.0
+[submodule "__other__/yelizariev-website"]
+	path = __other__/yelizariev-website
+	url = https://github.com/yelizariev/website-addons.git
+	branch = 8.0
