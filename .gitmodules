@@ -49,7 +49,7 @@
 	branch = 8.0
 [submodule "__other__/yelizariev-addons"]
 	path = __other__/yelizariev-addons
-	url = https://github.com/yelizariev/addons-yelizariev.git
+	url = https://github.com/it-projects-llc/misc-addons.git
 	branch = 8.0
 [submodule "__oca__/sale-workflow"]
 	path = __oca__/sale-workflow
@@ -113,7 +113,7 @@
 	branch = 8.0
 [submodule "__other__/yelizariev-mail"]
 	path = __other__/yelizariev-mail
-	url = https://github.com/yelizariev/mail-addons.git
+	url = https://github.com/it-projects-llc/mail-addons.git
 	branch = 8.0
 [submodule "__oca__/server-tools"]
 	path = __oca__/server-tools
@@ -125,5 +125,5 @@
 	branch = 8.0
 [submodule "__other__/yelizariev-website"]
 	path = __other__/yelizariev-website
-	url = https://github.com/yelizariev/website-addons.git
+	url = https://github.com/it-projects-llc/website-addons.git
 	branch = 8.0
