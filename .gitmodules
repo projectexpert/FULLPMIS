@@ -127,3 +127,8 @@
 	path = __other__/yelizariev-website
 	url = https://github.com/it-projects-llc/website-addons.git
 	branch = 8.0
+[submodule "__oca__/business-requirement"]
+	path = __oca__/business-requirement
+	url = https://github.com/OCA/business-requirement.git
+	branch = 8.0
+
