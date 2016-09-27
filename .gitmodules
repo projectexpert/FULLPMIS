@@ -132,3 +132,7 @@
 	url = https://github.com/OCA/business-requirement.git
 	branch = 8.0
 
+[submodule "__oca__/stock-logistics-workflow"]
+	path = __oca__/stock-logistics-workflow
+	url = https://github.com/OCA/stock-logistics-workflow.git
+	branch = 8.0
