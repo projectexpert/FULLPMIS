@@ -136,3 +136,7 @@
 	path = __oca__/stock-logistics-workflow
 	url = https://github.com/OCA/stock-logistics-workflow.git
 	branch = 8.0
+[submodule "__oca__/project-reporting"]
+	path = __oca__/project-reporting
+	url = https://github.com/OCA/project-reporting.git
+	branch = 8.0
