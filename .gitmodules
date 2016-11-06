@@ -140,3 +140,7 @@
 	path = __oca__/project-reporting
 	url = https://github.com/OCA/project-reporting.git
 	branch = 8.0
+[submodule "__oca__/commission"]
+	path = __oca__/commission
+	url = https://github.com/OCA/commission.git
+	branch = 8.0
