@@ -71,10 +71,6 @@
 	path = __oca__/product-attribute
 	url = https://github.com/OCA/product-attribute.git
 	branch = 8.0
-[submodule "__other__/ingadhoc"]
-	path = __other__/ingadhoc
-	url = https://github.com/ingadhoc/odoo-addons.git
-	branch = 8.0
 [submodule "__oca__/event"]
 	path = __oca__/event
 	url = https://github.com/OCA/event.git
