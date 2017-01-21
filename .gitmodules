@@ -140,3 +140,19 @@
 	path = __oca__/commission
 	url = https://github.com/OCA/commission.git
 	branch = 8.0
+[submodule "__other__/ingadhoc/account-analytic"]
+	path = __other__/ingadhoc/account-analytic
+	url = https://github.com/ingadhoc/account-analytic.git
+    branch = 8.0
+[submodule "__other__/ingadhoc/project"]
+	path = __other__/ingadhoc/project
+	url = https://github.com/ingadhoc/project.git
+    branch = 8.0
+[submodule "__other__/ingadhoc/partner"]
+	path = __other__/ingadhoc/partner
+	url = https://github.com/ingadhoc/partner.git
+    branch = 8.0
+[submodule "__other__/ingadhoc/product"]
+	path = __other__/ingadhoc/product
+	url = https://github.com/ingadhoc/product.git
+    branch = 8.0
