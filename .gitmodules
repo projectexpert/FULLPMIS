@@ -156,3 +156,7 @@
 	path = __other__/ingadhoc/product
 	url = https://github.com/ingadhoc/product.git
     branch = 8.0
+[submodule "__oca__/multi-company"]
+	path = __oca__/multi-company
+	url = https://github.com/OCA/multi-company.git
+	branch = 8.0
