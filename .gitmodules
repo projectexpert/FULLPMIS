@@ -83,10 +83,6 @@
 	path = __oca__/crm
 	url = https://github.com/OCA/crm.git
     branch = 8.0
-[submodule "__other__/embed_html"]
-	path = __other__/embed_html
-	url = https://github.com/nedaszilinskas/Odoo-CMS-Embed-HTML-Building-Block.git
-	branch = 8.0
 [submodule "__oca__/purchase-workflow"]
 	path = __oca__/purchase-workflow
 	url = https://github.com/OCA/purchase-workflow.git
