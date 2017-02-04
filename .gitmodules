@@ -123,7 +123,6 @@
 	path = __oca__/business-requirement
 	url = https://github.com/OCA/business-requirement.git
 	branch = 8.0
-
 [submodule "__oca__/stock-logistics-workflow"]
 	path = __oca__/stock-logistics-workflow
 	url = https://github.com/OCA/stock-logistics-workflow.git
@@ -155,4 +154,60 @@
 [submodule "__oca__/multi-company"]
 	path = __oca__/multi-company
 	url = https://github.com/OCA/multi-company.git
+	branch = 8.0
+[submodule "__oca__/stock-logistics-warehouse"]
+	path = __oca__/stock-logistics-warehouse
+	url = https://github.com/OCA/stock-logistics-warehouse.git
+	branch = 8.0
+[submodule "__oca__/stock-logistics-barcode"]
+	path = __oca__/stock-logistics-barcode
+	url = https://github.com/OCA/stock-logistics-barcode.git
+	branch = 8.0
+[submodule "__oca__/hr"]
+	path = __oca__/hr
+	url = https://github.com/OCA/hr.git
+	branch = 8.0
+[submodule "__oca__/e-commerce"]
+	path = __oca__/e-commerce
+	url = https://github.com/OCA/e-commerce.git
+	branch = 8.0
+[submodule "__oca__/bank-statement-import"]
+	path = __oca__/bank-statement-import
+	url = https://github.com/OCA/bank-statement-import.git
+	branch = 8.0
+[submodule "__oca__/account-payment"]
+	path = __oca__/account-payment
+	url = https://github.com/OCA/account-payment.git
+	branch = 8.0
+[submodule "__oca__/stock-logistics-reporting"]
+	path = __oca__/stock-logistics-reporting
+	url = https://github.com/OCA/stock-logistics-reporting.git
+	branch = 8.0
+[submodule "__oca__/bank-payment"]
+	path = __oca__/bank-payment
+	url = https://github.com/OCA/bank-payment.git
+	branch = 8.0
+[submodule "__oca__/contract"]
+	path = __oca__/contract
+	url = https://github.com/OCA/contract.git
+	branch = 8.0
+[submodule "__oca__/account-fiscal-rule"]
+	path = __oca__/account-fiscal-rule
+	url = https://github.com/OCA/account-fiscal-rule.git
+	branch = 8.0
+[submodule "__oca__/product-variant"]
+	path = __oca__/product-variant
+	url = https://github.com/OCA/product-variant.git
+	branch = 8.0
+[submodule "__oca__/sale-reporting"]
+	path = __oca__/sale-reporting
+	url = https://github.com/OCA/sale-reporting.git
+	branch = 8.0
+[submodule "__oca__/purchase-reporting"]
+	path = __oca__/purchase-reporting
+	url = https://github.com/OCA/purchase-reporting.git
+	branch = 8.0
+[submodule "__oca__/stock-logistics-tracking"]
+	path = __oca__/stock-logistics-tracking
+	url = https://github.com/OCA/stock-logistics-tracking.git
 	branch = 8.0
