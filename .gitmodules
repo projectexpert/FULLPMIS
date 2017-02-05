@@ -211,3 +211,7 @@
 	path = __oca__/stock-logistics-tracking
 	url = https://github.com/OCA/stock-logistics-tracking.git
 	branch = 8.0
+[submodule "__oca__/edi"]
+	path = __oca__/edi
+	url = https://github.com/OCA/edi.git
+	branch = 8.0
