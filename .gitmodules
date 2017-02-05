@@ -215,3 +215,7 @@
 	path = __oca__/edi
 	url = https://github.com/OCA/edi.git
 	branch = 8.0
+[submodule "__other__/ingadhoc/multi-company"]
+	path = __other__/ingadhoc/multi-company
+	url = https://github.com/ingadhoc/multi-company.git
+	branch = 8.0
