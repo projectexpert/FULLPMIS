@@ -219,3 +219,7 @@
 	path = __other__/gantt_improvement
 	url = https://github.com/stephane-/odoo_addons.git
 	branch = 8.0
+[submodule "__oca__/account-closing"]
+	path = __oca__/account-closing
+	url = https://github.com/OCA/account-closing.git
+	branch = 8.0
