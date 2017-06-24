@@ -223,3 +223,19 @@
 	path = __oca__/account-closing
 	url = https://github.com/OCA/account-closing.git
 	branch = 8.0
+[submodule "__oca__/bank-statement-reconcile"]
+	path = __oca__/bank-statement-reconcile
+	url = https://github.com/OCA/bank-statement-reconcile.git
+	branch = 8.0
+[submodule "__oca__/vertical-association"]
+	path = __oca__/vertical-association
+	url = https://github.com/OCA/vertical-association.git
+	branch = 8.0
+[submodule "__oca__/delivery-carrier"]
+	path = __oca__/delivery-carrier
+	url = https://github.com/OCA/delivery-carrier.git
+	branch = 8.0
+[submodule "__oca__/account-invoice-reporting"]
+	path = __oca__/account-invoice-reporting
+	url = https://github.com/OCA/account-invoice-reporting.git
+	branch = 8.0
